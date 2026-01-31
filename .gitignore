@@ -131,6 +131,13 @@ build
 .strapi-cloud.json
 
 ############################
+# Documentation (auto-generated)
+############################
+
+src/extensions/documentation/documentation/
+src/extensions/documentation/public/
+
+############################
 # IDE
 ############################
 
