@@ -2,6 +2,17 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
+## 📖 API Documentation
+
+This project includes OpenAPI documentation for all API endpoints.
+
+### Access Documentation
+
+- **Admin Panel (Swagger UI)**: `http://localhost:1337/admin/plugins/documentation`
+- **JSON Format (Public API)**: `http://localhost:1337/api/documentation/1.0.0/full_documentation`
+
+The JSON documentation can be used with external tools like Postman, Insomnia, or for generating API clients.
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
