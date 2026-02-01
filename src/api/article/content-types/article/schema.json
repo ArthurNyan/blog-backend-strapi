@@ -33,6 +33,16 @@
       },
       "required": true
     },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "targetField": "name",
+      "required": true
+    },
     "date": {
       "type": "date",
       "pluginOptions": {
@@ -47,15 +57,20 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-    "slug": {
-      "type": "uid",
+    "cover": {
+      "type": "media",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "targetField": "name",
-      "required": true
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     }
   }
 }
