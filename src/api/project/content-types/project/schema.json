@@ -78,6 +78,14 @@
         "images",
         "files"
       ]
+    },
+    "content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
